@@ -1,0 +1,89 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    min-height: 800px;
+}
+
+#background0{
+    width: 40vw;
+    height: 100vh;
+    background-color: #40787D;
+    position: absolute;
+    right: 0vw;
+    z-index: -1;
+    box-shadow: -10px 0px 50px #BBDEFB;
+}
+
+.jumbotron{
+    background-color: #173042;
+    box-shadow: -770px 5px 10px #BBDEFB;
+    color: #F9FBE7;
+    overflow: hidden;
+}
+
+.myform{
+    display: block;
+    overflow: hidden;
+    background-color:#EEEEEE;
+    color: #173042;
+    min-height: 400px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px #EEEEEE;
+}
+
+.glyphicon{
+    font-size: 25px;
+    color: #173042;
+}
+
+.myinputs{
+    background:#EEEEEE;
+	outline: none;
+    color: #263238;
+    height: 50px;
+    border-bottom: 3px solid #173042;
+    border-radius: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+.myinputs:hover{
+    border-bottom: 5px solid #173042;
+    border-radius: 0px;
+	background: #F9FBE7;
+ }
+
+.mybtn{
+    background-color: #173042;
+    height: 45px;
+    color: white;
+    font-size: 20px;
+    box-shadow: 10px 10px 10px #E3F2FD;
+    overflow: hidden;
+}
+
+.mybtn:hover{
+    background-color: #173042;
+    color: #cfdfda;
+    position: relative;
+    top: 3px;
+    left: 1px;
+	box-shadow: #E3F2FD;
+}
+
+.inner-addon { 
+    position: relative; 
+}
+
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+.right-addon .glyphicon { right: 0px;}
+.right-addon input { padding-right: 30px; }
