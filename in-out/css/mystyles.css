@@ -1,0 +1,83 @@
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #EEEEEE;
+}
+.content{
+    background-color: #EEEEEE;
+}
+.jumbotron1{
+    background-color: #311B92;
+    color: #EEEEEE;
+    box-shadow: 0px 10px 20px #90A4AE;
+}
+.middle{
+    text-align: center;
+}
+.footer{
+    background-color: #311B92;
+    color: #EEEEEE;
+}
+.welcome{
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 10px solid #26C6DA;
+}
+.myform{
+    overflow-x: hidden;
+    box-shadow: 0px 10px 25px #CFD8DC;
+}
+.form-head{
+    display: block;
+    width: inherit;
+    height: 100px;
+    color: white;
+    background-color:#26C6DA;
+    border-bottom: 5px solid #311B92;
+}
+.white{
+    display: block;
+    width: inherit;
+    height: 380px;
+    background-color: white;
+}
+.myinputs{
+	outline: none;
+    color: #263238;
+    height: 50px;
+    border-radius: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-bottom: 5px solid #26C6DA;
+    border-right: 0px;
+    overflow: hidden;
+    font-size: 20px;
+}
+.myinputs:hover{
+    border-bottom: 5px solid #311B92;
+}
+.mybtn{
+    background-color: #26C6DA;
+    border-radius: 0px;
+    height: 45px;
+    color: white;
+    font-size: 15px;
+    box-shadow: 5px 5px 5px #E3F2FD;
+    overflow: hidden;
+}
+.mybtn:hover{
+    background-color: #311B92;
+    color: #cfdfda;
+    position: relative;
+    top: 3px;
+    left: 1px;
+	box-shadow: #E3F2FD;
+}
+.inner-addon {position: relative; 
+}
+.inner-addon .material-icons {position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+.right-addon .material-icons { right: 0px;}
+.right-addon input { padding-right: 30px;}
