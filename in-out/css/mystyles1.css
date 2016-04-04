@@ -1,0 +1,123 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #EEEEEE;
+    z-index: -1;
+}
+.jumbotron1{
+    height: 350px;
+    color: #EEEEEE;
+    background-color: #304FFE;
+    box-shadow: 0px 10px 20px #90A4AE;
+    z-index: 0;
+}
+.middle{
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
+.myboard{
+    border-top: 20px solid #76FF03;
+    border-radius: 2px;
+    position: relative;
+    background-color: white;
+    top: -200px;
+    padding: 25px;
+    height: 556px;
+    z-index: 1;
+    box-shadow: 0px 10px 25px #90A4AE;
+}
+.myboard1{
+    border-top: 20px solid #FFCC80;
+    border-radius: 2px;
+    position: relative;
+    background-color: white;
+    top: -200px;
+    padding: 25px;
+    height: 556px;
+    z-index: 1;
+    box-shadow: 0px 10px 25px #90A4AE;
+}
+.myform{
+    color:black;
+}
+.myform1 input{
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 500;
+    border: none;
+    border-bottom: 5px solid #FFCC80;
+}
+.myform1 .mybtn{
+    background-color: #FFCC80;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    height: 45px;
+    color: white;
+    font-size: 15px;
+    box-shadow: 0px 10px 50px #EEFF41;
+    overflow: hidden;
+}
+a.createbtn{
+    background-color: #76FF03;
+    box-shadow: 0px 10px 25px #B2FF59;
+    border-radius: 2px;
+    display: block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+a.checkbtn{
+    background-color: #304FFE;
+    box-shadow: 0px 10px 25px #82B1FF;
+    border-radius: 2px;
+    display: block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.checkbtn:hover{
+    position: relative;
+    top:2px;
+    left:2px;
+    box-shadow: 0px 5px 10px #82B1FF;
+}
+.createbtn:hover{
+    position: relative;
+    top:2px;
+    left:2px;
+    box-shadow: 0px 5px 10px #82B1FF;
+}
+input{
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 500;
+    border: none;
+    border-bottom: 5px solid #76FF03;
+}
+footer{
+    background-color: #304FFE;
+    padding: 10px;
+    color: white;
+}
+.mybtn{
+    background-color: #76FF03;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    height: 45px;
+    color: white;
+    font-size: 15px;
+    box-shadow: 0px 10px 50px #EEFF41;
+    overflow: hidden;
+}
+.mybtn:hover{
+    background-color: #304FFE;
+    position: relative;
+    color: white;
+    top: 2px;
+    left: 2px;
+    box-shadow: 0px 5px 10px #26C6DA;
+}
