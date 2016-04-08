@@ -2,12 +2,13 @@ body{
     margin: 0px;
     font-family: 'Roboto', sans-serif;
     background-color: #EEEEEE;
+	padding-bottom: 100px;
 }
 .content{
     background-color: #EEEEEE;
 }
 .jumbotron1{
-    background-color: #311B92;
+    background-color: #304FFE;
     color: #EEEEEE;
     box-shadow: 0px 10px 20px #90A4AE;
 }
@@ -15,8 +16,12 @@ body{
     text-align: center;
 }
 .footer{
-    background-color: #311B92;
+    background-color: #304FFE;
     color: #EEEEEE;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100vw;
 }
 .welcome{
     text-align: center;
@@ -33,7 +38,7 @@ body{
     height: 100px;
     color: white;
     background-color: #26C6DA;
-    border-bottom: 5px solid #311B92;
+    border-bottom: 5px solid #304FFE;
 }
 .white{
     display: block;
@@ -54,7 +59,7 @@ body{
     font-size: 20px;
 }
 .myinputs:hover{
-    border-bottom: 5px solid #311B92;
+    border-bottom: 5px solid #304FFE;
 }
 .mybtn{
     background-color: #26C6DA;
@@ -66,7 +71,7 @@ body{
     overflow: hidden;
 }
 .mybtn:hover{
-    background-color: #311B92;
+    background-color: #304FFE;
     color: #cfdfda;
     position: relative;
     top: 3px;
