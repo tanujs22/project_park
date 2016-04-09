@@ -43,7 +43,7 @@ body{
 .white{
     display: block;
     width: inherit;
-    height: 380px;
+    min-height: 270px;
     background-color: white;
 }
 .myinputs{
