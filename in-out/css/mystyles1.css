@@ -4,7 +4,7 @@ body{
     z-index: -1;
 }
 .jumbotron1{
-    height: 350px;
+    height: 20vh;
     color: #EEEEEE;
     background-color: #304FFE;
     box-shadow: 0px 10px 20px #90A4AE;
@@ -21,10 +21,22 @@ body{
     border-radius: 2px;
     position: relative;
     background-color: white;
-    top: -200px;
+    top: -12vh;
     padding: 25px;
+    min-height: 450px;
     height: 50vh;
-	min-height: 500px;
+    z-index: 1;
+    box-shadow: 0px 10px 25px #90A4AE;
+}
+.myboard0{
+    border-top: 20px solid #76FF03;
+    border-radius: 2px;
+    position: relative;
+    background-color: white;
+    top: -12vh;
+    padding: 25px;
+    min-height: 450px;
+    height: 50vh;
     z-index: 1;
     box-shadow: 0px 10px 25px #90A4AE;
 }
@@ -33,12 +45,12 @@ body{
     border-radius: 2px;
     position: relative;
     background-color: white;
-    top: -18vh;
-    padding: 25px;
+    top: -12vh;
+    padding: 10px;
+    min-height: 460px;
     height: 53vh;
-	min-height: 500px;
     z-index: 1;
-	overflow-x: hidden;
+	overflow: hidden;
     box-shadow: 0px 10px 25px #90A4AE;
 }
 .myform{
@@ -108,10 +120,10 @@ input:hover{
     border-radius: 2px;
     position: relative;
     background-color: white;
-    top: -200px;
+    top: -12vh;
     padding: 25px;
+    min-height: 275px;
     height: 40vh;
-	min-height: 275px;
     z-index: 1;
 	overflow-x: hidden;
     box-shadow: 0px 10px 25px #90A4AE;
@@ -121,12 +133,11 @@ input:hover{
     border-radius: 2px;
     position: relative;
     background-color: white;
-    top: -200px;
+    top: -12vh;
     padding: 25px;
+    min-height: 300px;
     height: 30vh;
-	min-height: 275px;
     z-index: 1;
-	overflow-x: hidden;
     box-shadow: 0px 10px 25px #90A4AE;
 }
 footer{
