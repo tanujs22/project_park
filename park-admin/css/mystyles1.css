@@ -1,0 +1,156 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #EEEEEE;
+    z-index: -2;
+}
+.jumbotron1{
+    height: 20vh;
+    color: #EEEEEE;
+    background-color: #304FFE;
+    box-shadow: 0px 10px 20px #90A4AE;
+    z-index: -1;
+}
+.middle{
+    text-align: center;
+}
+.logoutbtn{
+	position: relative;
+	left: 75vw;
+	top: -2vh;
+	width: 100px;
+	padding-right: 10px;
+}
+.container{
+	z-index: 0;
+}
+.myboard{
+	overflow-x: hidden;
+    border-top: 20px solid #76FF03;
+    border-radius: 2px;
+    position: relative;
+    background-color: white;
+    top: -8vh;
+    padding: 50px;
+	min-height: 60vh;
+    z-index: 1;
+    box-shadow: 0px 10px 25px #90A4AE;
+}
+.myboard-head{
+	display: block;
+}
+.img-responsive{
+	padding: 5px;
+	width: 80px;
+	height: 80px;
+}
+footer{
+    background-color: #304FFE;
+    padding: 5px;
+    color: white;
+}
+a.mybtn1{
+    border-radius: 2px;
+	display: block;
+    padding: 10px;
+	font-size: 150%;
+    text-decoration: none;
+	overflow: hidden;
+}
+.mybtn1:hover{
+	position: relative;
+	top: 2px;
+	left: 2px;
+}
+a.green{
+	background-color: #76FF03;
+    box-shadow: 0px 10px 25px #B2FF59;
+	color: white;
+}
+a.black{
+	background-color: #263238;
+	color: lightgrey;
+	box-shadow: 0px 10px 25px #78909C;
+}
+.black:hover{
+	color: black;
+	background-color: #ECEFF1;
+	box-shadow: 0px 10px 25px #CFD8DC;
+}
+a.blue{
+	background-color: #304FFE;
+	color: aliceblue;
+    position: relative;
+    top:2px;
+    left:2px;
+    box-shadow: 0px 5px 10px #82B1FF;
+}
+.blue:hover{
+	background-color: #76FF03;
+    box-shadow: 0px 10px 25px #B2FF59;
+	color: white;
+    position: relative;
+    top:2px;
+    left:2px;
+}
+.green:hover{
+	background-color: #304FFE;
+	color: aliceblue;
+    position: relative;
+    top:2px;
+    left:2px;
+    box-shadow: 0px 5px 10px #82B1FF;
+}
+a{
+	text-decoration: none;
+}
+.myinputs{
+	outline: none;
+    color: #263238;
+    height: 50px;
+    border-radius: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-bottom: 5px solid #76FF03;
+    border-right: 0px;
+    overflow: hidden;
+    font-size: 20px;
+}
+.myinputs:hover{
+	border-bottom: 5px solid #304FFE;
+}
+.mybtn{
+    background-color: #76FF03;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    height: 45px;
+    color: white;
+    font-size: 15px;
+    box-shadow: 0px 10px 50px #EEFF41;
+    overflow: hidden;
+}
+.mybtn:hover{
+    background-color: #304FFE;
+    position: relative;
+    color: white;
+    top: 2px;
+    left: 2px;
+    box-shadow: 0px 5px 10px #26C6DA;
+}
+.myinputs:hover{
+    border-bottom: 5px solid #304FFE;
+}
+.mycolor{
+	background-color: #304FFE;
+	color: aliceblue;
+}
+.inner-addon {position: relative; 
+}
+.inner-addon .material-icons {position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+.right-addon .material-icons { right: 0px;}
+.right-addon input { padding-right: 30px;}
+.inner-addon {position: relative; 
+}
