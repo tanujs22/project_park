@@ -1,0 +1,302 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>Park Admin Dashboard</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+		<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/mystyles1.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Roboto:500' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+	</head>
+	<body>
+		
+		<header class="jumbotron jumbotron1">
+			<div class="logoutbtn">
+				<a class="mybtn1 black"><span style="display:block;">Logout</span></a>
+			</div>
+		</header>
+		
+		<div class="container">
+			<div class="col-xs-12 col-sm-12 col-md-12 myboard">
+				<div class="col-xs-12 myboard-head">
+					<div class="row">
+					<div class="col-xs-12">
+						<h1 class="middle"><b>Welcome<span style="color:#304FFE;display:inline;"> {{Admin}}</span></b></h1>
+					</div>
+						<p style="padding:50px;"></p>
+					</div>
+				</div>
+				
+			<div class="row">	
+				<div class="col-xs-12 col-md-8 col-md-offset-2">
+					<div class="panel panel-primary">
+						<div class="panel-heading">
+							<h4>Generated Revenue</h4>
+						</div>
+						<div class="panel-body">
+							<table class="table table-striped">
+										<thead>
+											<tr>
+												<th>BOOTH</th>
+												<th>BOOKINGS</th>
+												<th>REVENUE</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>Booth1</td>
+												<td>1223</td>
+												<td>851</td>
+											</tr>
+											<tr>
+												<td>Booth2</td>
+												<td>546</td>
+												<td>410</td>
+											</tr>
+											<tr>
+												<td>Booth3</td>
+												<td>998</td>
+												<td>1000</td>
+											</tr>
+											<tr>
+												<td>Booth4</td>
+												<td>412</td>
+												<td>312</td>
+											</tr>
+										</tbody>
+									</table>
+						</div>
+					</div>
+				</div>
+			</div>
+                
+            <div class="row">
+                <div class="col-xs-12">
+                    <div id="navpills">
+                        <p style="padding:20px;"></p>
+                        <ul class="nav nav-pills">
+                            <li class="active"><a data-toggle="pill" href="#CreateAdmin"><b>Create Admin</b></a></li>
+                            <li><a data-toggle="pill" href="#CreateBM"><b>Create Booth Manager</b></a></li>
+							<li><a data-toggle="pill" href="#ShowAdmin"><b>Active Admins</b></a></li>
+                            <li><a data-toggle="pill" href="#ShowBM"><b>Active Booth Manager</b></a></li>
+                            <li><a data-toggle="pill" href="#ChangeTimings"><b>Operating Time</b></a></li>
+                            <li><a data-toggle="pill" href="#ChangeOT"><b>Change Parking Capacity</b></a></li>
+                        </ul>
+						<p style="padding:10px;"></p>
+						<div class="tab-content">
+							<div id="CreateAdmin" class="tab-pane fade in active">
+								<div class="col-xs-12">
+									<h1>Admin creation form </h1><small>Enter the Admin Details</small>
+									<form class="form" role="form">
+										<p style="padding:20px;"></p>
+										<div class="col-xs-11 col-sm-10 col-md-8">
+										<label class="sr-only" for="username">USERNAME</label>
+										<div class="inner-addon right-addon">
+                                        <i class="material-icons">account_box</i>
+                                        <input type="text" name="username" class="form-control myinputs" placeholder="USERNAME" required></div>
+										<p style="padding:10px;"></p>
+										<label class="sr-only" for="password">PASSWORD</label>
+										<div class="inner-addon right-addon">
+                                        <i class="material-icons">lock_open</i>
+                                        <input type="password" name="password" class="form-control myinputs" placeholder="PASSWORD" required></div>
+										<p style="padding:10px;"></p>
+										<label class="sr-only" for="PhnNumber">PHONE NUMBER</label>
+										<div class="inner-addon right-addon">
+                                        <i class="material-icons">phone</i>
+                                        <input type="tel" name="PhnNumber" class="form-control myinputs" placeholder="PHONE NUMBER" required></div>
+										<p style="padding:10px;"></p>
+										<label class="sr-only" for="Email">E-mail</label>
+										<div class="inner-addon right-addon">
+                                        <i class="material-icons">markunread</i>
+                                        <input type="email" name="Email" class="form-control myinputs" placeholder="E-mail" required></div>
+										<p style="padding:10px;"></p>
+										<input type="file" name="User_Pic" accept="image/*">
+										<p style="padding:10px;"></p>
+										<div class="col-xs-8 col-sm-4 col-md-4">
+										<button type="submit" class="btn btn-block mybtn"><b>Create</b></button>
+										</div>
+										</div>
+									</form>
+								</div>
+							</div>
+							<div id="ShowAdmin" class="tab-pane fade">
+								<div class="col-xs-12">
+									<h1>All active Admins of this parking lot:</h1>
+									<table class="table table-striped">
+										<thead>
+											<tr>
+												<th>USERNAME</th>
+												<th>NAME</th>
+												<th>PHONE NUMBER</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>TanujSri28</td>
+												<td>Dummy Admin</td>
+												<td>xxxxxxxxxx</td>
+											</tr>
+											<tr>
+												<td>Monodeep1215</td>
+												<td>Dummy Admin</td>
+												<td>xxxxxxxxxx</td>
+											</tr>
+											<tr>
+												<td>Neha8</td>
+												<td>Dummy Admin</td>
+												<td>xxxxxxxxxx</td>
+											</tr>
+											<tr>
+												<td>Sukriti</td>
+												<td>Dummy Admin</td>
+												<td>xxxxxxxxxx</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div id="CreateBM" class="tab-pane fade">
+								<div class="col-xs-12">
+									<h1>Booth Manager creation form </h1><small>Enter the Booth Manager Details</small>
+									<form class="form" role="form">
+										<p style="padding:20px;"></p>
+										<div class="col-xs-11 col-sm-10 col-md-8">
+										<label class="sr-only" for="username">USERNAME</label>
+										<div class="inner-addon right-addon">
+                                        <i class="material-icons">account_box</i>
+                                        <input type="text" name="username" class="form-control myinputs" placeholder="USERNAME" required></div>
+										<p style="padding:10px;"></p>
+										<label class="sr-only" for="password">PASSWORD</label>
+										<div class="inner-addon right-addon">
+                                        <i class="material-icons">lock_open</i>
+                                        <input type="password" name="password" class="form-control myinputs" placeholder="PASSWORD" required></div>
+										<p style="padding:10px;"></p>
+										<label class="sr-only" for="PhnNumber">PHONE NUMBER</label>
+										<div class="inner-addon right-addon">
+                                        <i class="material-icons">phone</i>
+                                        <input type="tel" name="PhnNumber" class="form-control myinputs" placeholder="PHONE NUMBER" required></div>
+										<p style="padding:10px;"></p>
+										<label class="sr-only" for="Email">E-mail</label>
+										<div class="inner-addon right-addon">
+                                        <i class="material-icons">markunread</i>
+                                        <input type="email" name="Email" class="form-control myinputs" placeholder="E-mail" required></div>
+										<p style="padding:10px;"></p>
+										<input type="file" name="User_Pic" accept="image/*">
+										<p style="padding:10px;"></p>
+										<div class="col-xs-8 col-sm-4 col-md-4">
+										<button type="submit" class="btn btn-block mybtn"><b>Create</b></button>
+										</div>
+										</div>
+									</form>
+								</div>
+							</div>
+							<div id="ShowBM" class="tab-pane fade">
+								<div class="col-xs-12">
+									<h1>All active Booth Managers of this parking lot:</h1>
+									<table class="table table-striped">
+										<thead>
+											<tr>
+												<th>USERNAME</th>
+												<th>NAME</th>
+												<th>PHONE NUMBER</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>TanujSri28</td>
+												<td>Dummy BM</td>
+												<td>xxxxxxxxxx</td>
+											</tr>
+											<tr>
+												<td>Monodeep1215</td>
+												<td>Dummy BM</td>
+												<td>xxxxxxxxxx</td>
+											</tr>
+											<tr>
+												<td>Neha8</td>
+												<td>Dummy BM</td>
+												<td>xxxxxxxxxx</td>
+											</tr>
+											<tr>
+												<td>Sukriti</td>
+												<td>Dummy BM</td>
+												<td>xxxxxxxxxx</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div id="ChangeTimings" class="tab-pane fade">
+								<div class="col-xs-12">
+									<h1>Change Slot Timings</h1>
+									<form class="form-horizontal" role="form" method="post" action="">
+										<p style="padding:10px;"></p>
+										<div class="col-xs-12">
+											<h4>Present Timings</h4>
+											<div class="col-xs-6 col-sm-4 col-md-3">
+												<h4>Starts at: {{Time}}</h4>
+											</div>
+											<div class="col-xs-6 col-sm-4 col-md-3">
+												<h4>Ends at: {{Time}}</h4>
+											</div>
+										</div>
+										<div class="col-xs-12">
+											<h4>New Timings</h4>
+												<p style="padding:5px;"></p>
+												<div class="form-group">
+													<label class="control-label col-xs-4 col-md-3" for="prenum">Starting time : </label>
+													<div class="col-xs-4 col-md-3">
+														<input class="form-control" type="number" min="0" max="23" required>											</div>
+												</div>
+												<div class="form-group">
+													<label class="control-label col-xs-4 col-md-3" for="prenum">Ending time : </label>
+													<div class="col-xs-4 col-md-3">
+														<input class="form-control" type="number" min="0" max="23" required>											</div>
+												</div>
+										</div>
+										<div class="col-xs-5 col-sm-push-4 col-sm-2 col-md-2 col-md-pull-10">
+										<button id="updatetiming" class="btn btn-block mybtn">Update</button></div>
+									</form>
+								</div>
+							</div>
+							<div id="ChangeOT" class="tab-pane fade">
+								<div class="col-xs-12">
+									<h1>Change Slot Numbers</h1>
+									<form class="form-horizontal" role="form">
+										<p style="padding:10px;"></p>
+										<div class="form-group">
+											<label class="control-label col-xs-4 col-md-3" for="prenum">Present Capacity: </label>
+											<div class="col-xs-6 col-md-3">
+												<label name="prenum" class="control-label">200</label>
+											</div>
+										</div>
+										<div class="form-group">
+											<label class="control-label col-xs-4 col-md-3" for="newnum">New Capacity: </label>
+											<div class="col-xs-6 col-md-3">
+												<input type="text" class="form-control" name="newnum">
+											</div>
+										</div>
+										<p style="padding:10px;"></p>
+										<div class="col-xs-5 col-sm-push-4 col-sm-2 col-md-2 col-md-pull-10">
+										<button id="updatecapacity" class="btn btn-block mybtn">Update</button></div>
+									</form>
+								</div>
+							</div>
+							</div>
+						</div>
+                    </div>
+                </div>
+            </div>
+		</div>
+		
+		<footer class="footer">
+			<h3 class="middle"><b>Powered by Cumbre Technology</b></h3>
+		</footer>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
